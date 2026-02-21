@@ -5,7 +5,7 @@ import requests
 from datetime import datetime, timedelta
 
 # --- Configuration ---
-API_KEY = os.getenv("OPENWEATHER_API_KEY", "647b6ed4337d18247e2c242de430a8fe")
+API_KEY = os.getenv("OPENWEATHER_API_KEY", "Enter_API_Key")
 
 CURRENT_URL  = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"   # 5-day / 3-hour
